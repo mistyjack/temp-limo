@@ -1,0 +1,19 @@
+.btn {
+  @apply py-2 px-4 rounded-lg;
+
+  &-lg {
+    @apply py-3.5 px-5;
+  }
+
+  &-xl {
+    @apply py-4 px-20;
+  }
+
+  &-primary {
+    @apply text-white bg-primary hover:bg-primary-dark;
+
+    &-outlined {
+      @apply text-primary border-solid border-primary-light border hover:border-primary-dark hover:bg-primary/10;
+    }
+  }
+}

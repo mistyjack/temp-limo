@@ -1,0 +1,4 @@
+Mazzard - 700, 600, 400
+Visuelet Pro - 400, 500, 700
+Inter - 400
+ALS Hauss - 500

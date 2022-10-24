@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "ALS Hauss";
+  src: url("/fonts/ALSHauss/ALSHauss-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mazzard";
+  src: url("/fonts/Mazzard/MazzardH-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mazzard";
+  src: url("/fonts/Mazzard/MazzardH-SemiBold.ttf");
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mazzard";
+  src: url("/fonts/Mazzard/MazzardH-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Visuelt Pro";
+  src: url("/fonts/VisueltPro/VisueltPro-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visuelt Pro";
+  src: url("/fonts/VisueltPro/VisueltPro-Medium.ttf");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Visuelt Pro";
+  src: url("/fonts/VisueltPro/VisueltPro-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
