@@ -23,5 +23,5 @@ a {
 }
 
 .custom-container {
-  @apply container mx-auto px-4 xl:px-6;
+  @apply container max-w-screen-xl mx-auto px-4 xl:px-6;
 }

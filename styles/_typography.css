@@ -55,3 +55,7 @@
   font-display: swap;
 }
 
+.h1 {
+  @apply text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-txt-pry dark:text-txt-pry-dm font-bold xl:leading-74 mb-6;
+}
+

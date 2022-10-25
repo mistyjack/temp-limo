@@ -15,7 +15,3 @@
     @apply flex hover:text-primary  items-center px-4 py-2 cursor-pointer;
   }
 }
-
-.menu {
-  width: 148px;
-}

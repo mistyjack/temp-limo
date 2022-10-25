@@ -1,4 +1,3 @@
-import styles from "@styles/Common.module.css";
 import { Dispatch, FC, ReactNode, SetStateAction, useEffect, useRef } from "react";
 
 interface IMenu {
@@ -28,7 +27,7 @@ const Menu: FC<IMenu> = ({ children, open, setOpen }) => {
     };
   }, [wrapperRef]);
 
-  return <div ref={wrapperRef} className={`shadow-lg transition-all ease-in-out ${styles.menu} ${open ? "block" : "hidden"}`}>{children}</div>;
+  return <div ref={wrapperRef} className={`${open ? "visible" : "invisible"}`}>{children}</div>;
 };
 
 export default Menu;
