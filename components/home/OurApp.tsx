@@ -5,8 +5,8 @@ import { FC } from "react";
 const OurApp: FC = () => {
   return (
     <section id="our-app" className="font-vis py-24">
-      <div className="custom-container flex items-center">
-        <div className="w-1/2">
+      <div className="custom-container flex flex-wrap items-center">
+        <div className="w-full md:w-1/2">
           <h2 className="text-pry text-2xl md:text-5xl md:leading-57 max-w-576 font-medium mb-6">
             Our awesome App is on it&apos;s way
           </h2>
@@ -14,7 +14,7 @@ const OurApp: FC = () => {
             We&apos;re still building. Subscribe for updates to know when we
             launch. No spam, we promise!
           </p>
-          <p className="font-medium text-sm mb-4">Coming soon to</p>
+          <p className="font-medium text-adaptive text-sm mb-4">Coming soon to</p>
           <div className="flex gap-4">
             <Link href="/">
               <a aria-label="Play store" className="block relative w-135 h-10 hover:scale-105 transition-transform">
@@ -38,7 +38,7 @@ const OurApp: FC = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2 mt-8 md:mt-0">
           <Image
             src="/our-app.png"
             alt="Our app"

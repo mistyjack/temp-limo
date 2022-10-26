@@ -62,9 +62,7 @@ const OurFleet: FC = () => {
     <section id="our-fleet" className="font-vis py-24">
       <div className="custom-container">
         <div className="flex justify-between items-center">
-          <h2 className="h2 mb-5">
-            Our Fleet
-          </h2>
+          <h2 className="h2 mb-5">Our Fleet</h2>
           <a className="relative pr-8" href="/about-us#our-fleet">
             See all
             <span className="btn-anim-icon absolute right-0">
@@ -131,6 +129,8 @@ const Fleet: FC<IFleet> = ({
   return (
     <div
       className={`pb-6 dark:bg-fleet relative z-50 rounded-t-2xl keen-slider__slide min-w-250 md:min-w-384 transition-shadow duration-700 ${styles.fleet}`}
+      data-aos="fade-up"
+      data-aos-duration="1000"
     >
       <div className="h-40 md:h-60 mb-6 relative rounded-t-2xl">
         <Image
@@ -142,7 +142,9 @@ const Fleet: FC<IFleet> = ({
         />
       </div>
       <div className="px-4">
-        <h3 className="text-base md:text-xl text-pry md:leading-9 mb-3 font-medium">{name}</h3>
+        <h3 className="text-base md:text-xl text-pry md:leading-9 mb-3 font-medium">
+          {name}
+        </h3>
         <div className="flex justify-between text-sec mb-3">
           <p>Year</p>
           <p>{year}</p>

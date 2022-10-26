@@ -70,7 +70,7 @@ const Navbar: FC<INavbar> = ({ setThemeChange, themeChange }) => {
 
   return (
     <nav
-      className={`custom-container text-adaptive  font-als flex justify-between items-center ${styles.nav}`}
+      className={`custom-container text-adaptive font-als flex justify-between items-center ${styles.nav}`}
     >
       <div className={`${styles.nav_left} flex justify-between items-center`}>
         <Image width={145} height={38} alt="Logo" src="/logo.svg" />

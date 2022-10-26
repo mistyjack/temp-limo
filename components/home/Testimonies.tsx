@@ -80,7 +80,9 @@ const Testimonies: FC = () => {
   return (
     <section id="testimonies" className="py-32">
       <div className="custom-container">
-        <h2 className="h2 text-center mb-8 md:mb-16">What customers are saying</h2>
+        <h2 className="h2 text-center mb-8 md:mb-16">
+          What customers are saying
+        </h2>
 
         <div className="keen-slider md:hidden" ref={sliderRef}>
           {data.map((item, index) => (
@@ -140,7 +142,11 @@ interface ITestimony {
 
 const Testimony: FC<ITestimony> = ({ name, title, icon, content }) => {
   return (
-    <div className="border p-4 rounded-10 border-grey">
+    <div
+      className="border p-4 rounded-10 border-grey"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
       <div className="flex items-center mb-4 justify-between">
         <div className="flex items-center gap-2">
           <div className="rounded-full relative w-10 h-10">

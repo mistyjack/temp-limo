@@ -54,7 +54,7 @@ const Drawer: FC<IDrawer> = ({ openDrawer, setOpenDrawer }) => {
         </Menu>
       </div>
       <div
-        className={`absolute md:hidden top-0 left-0 h-screen z-20 w-screen bg-black opacity-40 transition-all ease-in-out ${
+        className={`absolute md:hidden max-w-full top-0 left-0 h-screen z-20 w-screen bg-black opacity-40 transition-all ease-in-out ${
           openDrawer ? "visible" : "invisible"
         }`}
       />

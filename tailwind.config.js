@@ -39,6 +39,7 @@ module.exports = {
         adaptive: "#595453",
         fleet: "#1A1D1F",
         grey: "#EAE9F2",
+        footer: "#F9FAFB"
       },
       lineHeight: {
         50: "3.125rem",
@@ -49,6 +50,7 @@ module.exports = {
       },
       maxWidth: {
         250: "15.625rem",
+        320: "20rem",
         348: "21.75rem",
         480: "30rem",
         560: "35rem",

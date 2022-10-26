@@ -1,5 +1,6 @@
 @import url("./_typography");
 @import url("./_btn");
+@import url("./_input");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

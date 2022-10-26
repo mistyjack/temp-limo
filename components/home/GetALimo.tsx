@@ -7,11 +7,17 @@ const GetALimo: FC = () => {
     <section id="get-a-limo" className="font-vis ">
       <div className="custom-container flex">
         <div className="text-white flex flex-col justify-between p-4 md:pt-16 md:pl-10 md:pb-8 bg-primary w-full md:w-2/5">
-          <div>
+          <div data-aos="fade-up" data-aos-duration="1000">
             <p className="md:text-xl mb-4">Get a Limo?</p>
-            <h2 className="text-xl md:text-3.5xl md:max-w-348">Join the Us to increase your earnings</h2>
+            <h2 className="text-xl md:text-3.5xl md:max-w-348">
+              Join the Us to increase your earnings
+            </h2>
           </div>
-          <div className="mt-8 md:mt-0">
+          <div
+            className="mt-8 md:mt-0"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
             <a className="relative pr-8 font-medium" href="/partner">
               Partner with us
               <span className="text-white btn-anim-icon absolute">
