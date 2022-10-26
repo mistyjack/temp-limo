@@ -33,13 +33,19 @@ module.exports = {
         adaptive: "#595453",
       },
       lineHeight: {
+        50: "3.125rem",
+        54: "3.375rem",
         60: "3.75rem",
         74: "4.625rem",
       },
       maxWidth: {
         480: "30rem",
+        560: "35rem",
+        768: "48.2rem"
       },
       spacing: {
+        56: "3.5rem",
+        543: "33.9375rem",
         640: "40rem",
       },
     },

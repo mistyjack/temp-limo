@@ -30,7 +30,6 @@
   font-display: swap;
 }
 
-
 @font-face {
   font-family: "Visuelt Pro";
   src: url("/fonts/VisueltPro/VisueltPro-Bold.ttf");
@@ -55,7 +54,14 @@
   font-display: swap;
 }
 
-.h1 {
-  @apply text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-txt-pry dark:text-txt-pry-dm font-bold xl:leading-74 mb-6;
+.text-pry {
+  @apply text-txt-pry dark:text-txt-pry-dm;
 }
 
+.text-sec {
+  @apply text-txt-sec dark:text-txt-sec-dm;
+}
+
+.h1 {
+  @apply text-2xl md:text-3xl lg:text-5xl xl:text-6xl text-pry font-bold xl:leading-74 mb-6;
+}
