@@ -14,6 +14,9 @@ module.exports = {
       int: ["Inter", "Helvetica", "Arial", "sans-serif"],
     },
     extend: {
+      fontSize: {
+        "3.5xl": "2rem"
+      },
       screens: {
         sm: "640px",
         md: "900px",
@@ -40,14 +43,20 @@ module.exports = {
         74: "4.625rem",
       },
       maxWidth: {
+        348: "21.75rem",
         480: "30rem",
         560: "35rem",
         768: "48.2rem",
+      },
+      minWidth: {
+        250: "15.625rem",
+        384: "24rem"
       },
       spacing: {
         56: "3.5rem",
         543: "33.9375rem",
         640: "40rem",
+        700: "43.75rem"
       },
     },
   },

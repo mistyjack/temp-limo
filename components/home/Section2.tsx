@@ -92,10 +92,10 @@ const PictureTextGrid: FC<IPictureTextGrid> = ({
       </div>
       <div className={`md:w-1/2 p-4 ${reverse ? "md:pl-12 lg:pl-20" : ""}`}>
         {icon}
-        <h3 className="text-3xl font-semibold mt-2 md:mt-6 mb-4 text-pry leading-50">
+        <h3 className="text-xl md:text-3xl font-semibold mt-2 md:mt-6 mb-4 text-pry leading-50">
           {title}
         </h3>
-        <div className="text-lg text-sec max-w-560 mx-auto md:mx-0">{content}</div>
+        <div className="md:text-lg text-sec max-w-560 mx-auto md:mx-0">{content}</div>
       </div>
     </div>
   );

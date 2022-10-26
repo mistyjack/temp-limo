@@ -130,9 +130,9 @@ const Fleet: FC<IFleet> = ({
 }) => {
   return (
     <div
-      className={`pb-6 dark:bg-fleet rounded-t-2xl keen-slider__slide w-96 transition-all duration-700 ${styles.fleet}`}
+      className={`pb-6 dark:bg-fleet relative z-50 rounded-t-2xl keen-slider__slide min-w-250 md:min-w-384 transition-shadow duration-700 ${styles.fleet}`}
     >
-      <div className="h-60 mb-6 relative rounded-t-2xl">
+      <div className="h-40 md:h-60 mb-6 relative rounded-t-2xl">
         <Image
           className="transition-all duration-700"
           src={image}
@@ -142,7 +142,7 @@ const Fleet: FC<IFleet> = ({
         />
       </div>
       <div className="px-4">
-        <h3 className="text-xl text-pry leading-9 mb-3 font-medium">{name}</h3>
+        <h3 className="text-base md:text-xl text-pry md:leading-9 mb-3 font-medium">{name}</h3>
         <div className="flex justify-between text-sec mb-3">
           <p>Year</p>
           <p>{year}</p>

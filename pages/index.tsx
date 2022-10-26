@@ -1,3 +1,4 @@
+import GetALimo from "@components/home/GetALimo";
 import Hero from "@components/home/Hero";
 import OurFleet from "@components/home/OurFleet";
 import Section2 from "@components/home/Section2";
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
         <Hero />
         <Section2 />
         <OurFleet />
+        <GetALimo />
       </main>
     </div>
   );
