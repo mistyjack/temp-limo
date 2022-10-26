@@ -1,5 +1,6 @@
 import GetALimo from "@components/home/GetALimo";
 import Hero from "@components/home/Hero";
+import OurApp from "@components/home/OurApp";
 import OurFleet from "@components/home/OurFleet";
 import Section2 from "@components/home/Section2";
 import Testimonies from "@components/home/Testimonies";
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
         <OurFleet />
         <GetALimo />
         <Testimonies />
+        <OurApp />
       </main>
     </div>
   );

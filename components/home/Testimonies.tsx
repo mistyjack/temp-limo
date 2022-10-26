@@ -141,8 +141,8 @@ interface ITestimony {
 const Testimony: FC<ITestimony> = ({ name, title, icon, content }) => {
   return (
     <div className="border p-4 rounded-10 border-grey">
-      <div className="flex mb-4 justify-between">
-        <div className="flex gap-2">
+      <div className="flex items-center mb-4 justify-between">
+        <div className="flex items-center gap-2">
           <div className="rounded-full relative w-10 h-10">
             <Image src={icon} alt="Avatar" layout="fill" objectFit="cover" />
           </div>

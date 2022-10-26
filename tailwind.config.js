@@ -43,6 +43,7 @@ module.exports = {
       lineHeight: {
         50: "3.125rem",
         54: "3.375rem",
+        57: "3.59375rem",
         60: "3.75rem",
         74: "4.625rem",
       },
@@ -51,6 +52,7 @@ module.exports = {
         348: "21.75rem",
         480: "30rem",
         560: "35rem",
+        576: "36rem",
         768: "48.2rem",
       },
       minWidth: {
@@ -59,6 +61,7 @@ module.exports = {
       },
       spacing: {
         56: "3.5rem",
+        135: "8.4375rem",
         543: "33.9375rem",
         640: "40rem",
         700: "43.75rem",
