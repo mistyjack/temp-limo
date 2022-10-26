@@ -31,6 +31,7 @@ module.exports = {
         "bg-color": "#FCFCFC",
         "bg-color-dm": "#111315",
         adaptive: "#595453",
+        "fleet": "#1A1D1F",
       },
       lineHeight: {
         50: "3.125rem",
@@ -41,7 +42,7 @@ module.exports = {
       maxWidth: {
         480: "30rem",
         560: "35rem",
-        768: "48.2rem"
+        768: "48.2rem",
       },
       spacing: {
         56: "3.5rem",

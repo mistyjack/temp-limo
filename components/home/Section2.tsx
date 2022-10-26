@@ -25,7 +25,7 @@ const Section2: FC = () => {
     <section id="section-2" className="pt-16 md:pt-48 pb-24">
       <div className="custom-container-no-p">
         <div className="max-w-768 mx-auto text-center mb-24">
-          <h2 className="text-xl md:text-4xl md:leading-54 font-semibold mb-5">
+          <h2 className="text-xl text-pry md:text-4xl md:leading-54 font-semibold mb-5">
             Providing You With The Absolute Best Luxury Limousine Service
           </h2>
           <p className="text-sec text-base sm:text-xl">
@@ -73,7 +73,7 @@ const PictureTextGrid: FC<IPictureTextGrid> = ({
 }) => {
   return (
     <div
-      className={`shadow-lg rounded-xl overflow-hidden md:shadow-none md:flex md:items-center md:gap-12 lg:gap-20 ${
+      className={`shadow-lg rounded-xl md:rounded-none overflow-hidden md:shadow-none md:flex md:items-center md:gap-12 lg:gap-20 ${
         reverse ? "md:flex-row-reverse" : ""
       }`}
     >
