@@ -14,8 +14,11 @@ module.exports = {
       int: ["Inter", "Helvetica", "Arial", "sans-serif"],
     },
     extend: {
+      borderRadius: {
+        '10': "0.625rem"
+      },
       fontSize: {
-        "3.5xl": "2rem"
+        "3.5xl": "2rem",
       },
       screens: {
         sm: "640px",
@@ -34,7 +37,8 @@ module.exports = {
         "bg-color": "#FCFCFC",
         "bg-color-dm": "#111315",
         adaptive: "#595453",
-        "fleet": "#1A1D1F",
+        fleet: "#1A1D1F",
+        grey: "#EAE9F2",
       },
       lineHeight: {
         50: "3.125rem",
@@ -43,6 +47,7 @@ module.exports = {
         74: "4.625rem",
       },
       maxWidth: {
+        250: "15.625rem",
         348: "21.75rem",
         480: "30rem",
         560: "35rem",
@@ -50,13 +55,13 @@ module.exports = {
       },
       minWidth: {
         250: "15.625rem",
-        384: "24rem"
+        384: "24rem",
       },
       spacing: {
         56: "3.5rem",
         543: "33.9375rem",
         640: "40rem",
-        700: "43.75rem"
+        700: "43.75rem",
       },
     },
   },

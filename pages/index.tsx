@@ -2,6 +2,7 @@ import GetALimo from "@components/home/GetALimo";
 import Hero from "@components/home/Hero";
 import OurFleet from "@components/home/OurFleet";
 import Section2 from "@components/home/Section2";
+import Testimonies from "@components/home/Testimonies";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <Section2 />
         <OurFleet />
         <GetALimo />
+        <Testimonies />
       </main>
     </div>
   );

@@ -62,7 +62,7 @@ const OurFleet: FC = () => {
     <section id="our-fleet" className="font-vis py-24">
       <div className="custom-container">
         <div className="flex justify-between items-center">
-          <h2 className="text-xl text-pry md:text-4xl md:leading-54 font-semibold mb-5">
+          <h2 className="h2 mb-5">
             Our Fleet
           </h2>
           <a className="relative pr-8" href="/about-us#our-fleet">
