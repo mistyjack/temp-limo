@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       borderRadius: {
-        '10': "0.625rem"
+        10: "0.625rem",
       },
       fontSize: {
         "3.5xl": "2rem",
@@ -39,7 +39,7 @@ module.exports = {
         adaptive: "#595453",
         fleet: "#1A1D1F",
         grey: "#EAE9F2",
-        footer: "#F9FAFB"
+        footer: "#F9FAFB",
       },
       lineHeight: {
         50: "3.125rem",
@@ -56,6 +56,7 @@ module.exports = {
         560: "35rem",
         576: "36rem",
         768: "48.2rem",
+        823: "51.4375rem",
       },
       minWidth: {
         250: "15.625rem",
