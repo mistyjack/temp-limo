@@ -36,6 +36,7 @@ const Faqs: FC = () => {
 
         {data.map((item, index) => (
           <div
+            key={item.question + " " + index}
             className={`max-w-768 mx-auto ${
               data.length - 1 !== index ? "border-b" : ""
             }`}

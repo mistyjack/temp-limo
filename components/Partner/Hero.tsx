@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FC } from "react";
 
 const Hero: FC = () => {
@@ -9,9 +10,9 @@ const Hero: FC = () => {
           Our mission is to ensure teams can do their best work, no matter their
           size or budget. We focus on the details of everything we do.
         </p>
-        <a href="/partner" className="btn btn-2lg btn-primary">
-          Parter with us
-        </a>
+        <Link href="/partner">
+          <a className="btn btn-2lg btn-primary">Parter with us</a>
+        </Link>
       </div>
     </section>
   );

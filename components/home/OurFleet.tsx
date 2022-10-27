@@ -2,6 +2,7 @@ import ArrowRightIcon from "@components/icon/ArrowRight";
 import styles from "@styles/Home.module.css";
 import { useKeenSlider } from "keen-slider/react";
 import Image from "next/image";
+import Link from "next/link";
 import { FC, useState } from "react";
 
 const data: IFleet[] = [
@@ -63,12 +64,14 @@ const OurFleet: FC = () => {
       <div className="custom-container">
         <div className="flex justify-between items-center">
           <h2 className="h2 mb-5">Our Fleet</h2>
-          <a className="relative pr-8" href="/about-us#our-fleet">
-            See all
-            <span className="btn-anim-icon absolute right-0">
-              <ArrowRightIcon />
-            </span>
-          </a>
+          <Link href="/about-us#our-fleet">
+            <a className="relative pr-8">
+              See all
+              <span className="btn-anim-icon absolute right-0">
+                <ArrowRightIcon />
+              </span>
+            </a>
+          </Link>
         </div>
 
         <div className="keen-slider pb-8" ref={sliderRef}>
