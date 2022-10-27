@@ -1,5 +1,6 @@
 import ArrowRightIcon from "@components/icon/ArrowRight";
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 
 const GetALimo: FC = () => {
@@ -18,12 +19,14 @@ const GetALimo: FC = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <a className="relative pr-8 font-medium" href="/partner">
-              Partner with us
-              <span className="text-white btn-anim-icon absolute">
-                <ArrowRightIcon />
-              </span>
-            </a>
+            <Link href="/partner">
+              <a className="relative pr-8 font-medium">
+                Partner with us
+                <span className="text-white btn-anim-icon absolute">
+                  <ArrowRightIcon />
+                </span>
+              </a>
+            </Link>
           </div>
         </div>
         <div className="relative h-60 w-full md:h-700 md:w-3/5">
