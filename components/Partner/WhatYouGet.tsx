@@ -75,13 +75,13 @@ const WhatYouGet: FC = () => {
 
 export default WhatYouGet;
 
-interface IWhatYouGetItem {
+export interface IWhatYouGetItem {
   icon: ReactNode;
   title: string;
   content: string;
 }
 
-const WhatYouGetItem: FC<IWhatYouGetItem> = ({ icon, title, content }) => {
+export const WhatYouGetItem: FC<IWhatYouGetItem> = ({ icon, title, content }) => {
   return (
     <div className="text-center sm:text-left">
       {icon}

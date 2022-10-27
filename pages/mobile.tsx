@@ -14,7 +14,7 @@ const Mobile: NextPage = () => {
   }, []);
   
   return (
-    <div>
+    <>
       <Head>
         <title>Mobile App {"-"} All Star Limousine</title>
         <meta name="description" content="Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks." />
@@ -26,7 +26,7 @@ const Mobile: NextPage = () => {
         <Testimonies />
         <OurApp />
       </main>
-    </div>
+    </>
   );
 };
 

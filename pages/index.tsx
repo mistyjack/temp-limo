@@ -16,7 +16,7 @@ const Home: NextPage = () => {
   }, []);
   
   return (
-    <div>
+    <>
       <Head>
         <title>Home {"-"} All Star Limousine</title>
         <meta name="description" content="Top-quality worldwide executive limousine service." />
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
         <Testimonies />
         <OurApp />
       </main>
-    </div>
+    </>
   );
 };
 
