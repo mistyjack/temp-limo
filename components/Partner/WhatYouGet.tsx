@@ -4,6 +4,7 @@ import FeaturedNetwork from "@components/icon/FeaturedNetwork";
 import PartnerFlashIcon from "@components/icon/PartnerFlash";
 import PartnerMailIcon from "@components/icon/PartnerMail";
 import SmileIcon from "@components/icon/Smile";
+import TypicalHeader from "@components/ui/TypicalHeader";
 import { FC, ReactNode } from "react";
 
 const data: IWhatYouGetItem[] = [
@@ -49,21 +50,11 @@ const WhatYouGet: FC = () => {
   return (
     <section id="what-you-get">
       <div className="custom-container py-24">
-        <h2
-          className="h2 text-center"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          What you get
-        </h2>
-        <p
-          className="text-sec text-center text-base sm:text-xl mb-16"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          We&apos;re looking for smart, motivated people. No matter where you
-          live.
-        </p>
+        <TypicalHeader
+          heading="What you get"
+          subHeading="We're looking for smart, motivated people. No matter where you
+          live."
+        />
 
         <div className="sm:grid gap-8 sm:grid-cols-2 md:grid-cols-3">
           {data.map((item, index) => (

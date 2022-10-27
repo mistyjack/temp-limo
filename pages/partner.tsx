@@ -1,3 +1,5 @@
+import BecomePartner from "@components/Partner/BecomePartner";
+import Faqs from "@components/Partner/Faqs";
 import Hero from "@components/Partner/Hero";
 import Section2 from "@components/Partner/Section2";
 import WhatYouGet from "@components/Partner/WhatYouGet";
@@ -23,6 +25,8 @@ const Partner: NextPage = () => {
         <Hero />
         <Section2 />
         <WhatYouGet />
+        <Faqs />
+        <BecomePartner />
       </main>
     </div>
   );

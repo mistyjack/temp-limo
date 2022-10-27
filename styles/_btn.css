@@ -21,6 +21,11 @@
     }
   }
 
+  &-white {
+    @apply text-txt-pry bg-txt-pry-dm hover:bg-grey;
+
+  }
+
   &-anim-icon {
     animation: btnArrow 0.8s linear infinite;
   }

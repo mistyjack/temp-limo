@@ -65,7 +65,7 @@ const Section2Item: FC<ISection2Item> = ({
         {list.map((item, index) => (
           <li key={`${item}-${index}`} className="flex mb-5 gap-3">
             {listIcon}
-            <p className="text-sec text-lg">{item}</p>
+            <p className="text-sec text-left text-lg">{item}</p>
           </li>
         ))}
       </ul>
