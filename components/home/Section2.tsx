@@ -50,13 +50,7 @@ const Section2: FC = () => {
               data.length - 1 !== index ? "mb-20" : ""
             }`}
           >
-            <PictureTextGrid
-              title={item.title}
-              content={item.content}
-              image={item.image}
-              icon={item.icon}
-              reverse={item.reverse}
-            />
+            <PictureTextGrid {...item} />
           </div>
         ))}
       </div>
