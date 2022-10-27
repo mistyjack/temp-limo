@@ -20,7 +20,7 @@ const products = [
   },
   {
     text: "App",
-    link: "/app",
+    link: "/mobile",
   },
   {
     text: "Contact",
@@ -39,7 +39,7 @@ const resources = [
   },
   {
     text: "Releases",
-    link: "/app",
+    link: "/mobile",
   },
 ];
 

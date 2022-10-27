@@ -30,7 +30,7 @@ export const navLinks = [
   },
   {
     label: "App",
-    link: "/app",
+    link: "/mobile",
     icon: <MobileIcon />,
   },
   {
