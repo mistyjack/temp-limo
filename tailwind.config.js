@@ -42,6 +42,7 @@ module.exports = {
         footer: "#F9FAFB",
       },
       lineHeight: {
+        30: "1.875rem",
         50: "3.125rem",
         54: "3.375rem",
         57: "3.59375rem",

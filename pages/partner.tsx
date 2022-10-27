@@ -1,5 +1,6 @@
 import Hero from "@components/Partner/Hero";
 import Section2 from "@components/Partner/Section2";
+import WhatYouGet from "@components/Partner/WhatYouGet";
 import Aos from "aos";
 import type { NextPage } from "next";
 import Head from "next/head";
@@ -21,6 +22,7 @@ const Partner: NextPage = () => {
       <main>
         <Hero />
         <Section2 />
+        <WhatYouGet />
       </main>
     </div>
   );
