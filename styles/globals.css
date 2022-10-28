@@ -24,7 +24,7 @@ a {
 }
 
 .custom-container {
-  @apply container max-w-screen-xl mx-auto px-4 xl:px-6;
+  @apply container max-w-screen-xl mx-auto px-4 md:px-6;
 }
 
 .custom-container-no-p {

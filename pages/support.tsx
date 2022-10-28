@@ -1,4 +1,5 @@
 import ContactCard from "@components/contact/ContactCard";
+import ContactForm from "@components/contact/ContactForm";
 import Hero from "@components/contact/Hero";
 import OurApp from "@components/home/OurApp";
 import Faqs from "@components/Partner/Faqs";
@@ -23,6 +24,7 @@ const Support: NextPage = () => {
       <main>
         <Hero />
         <ContactCard />
+        <ContactForm />
         <Faqs />
         <OurApp />
       </main>

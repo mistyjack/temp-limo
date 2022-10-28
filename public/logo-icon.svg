@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="38" height="38" fill="none" version="1.1" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
  <g filter="url(#filter0_dd_133_52438)">
-  <g clip-path="url(#clip0_133_52438)">
+  <g clipPath="url(#clip0_133_52438)">
    <rect x="3" y="2" width="32" height="32" rx="8" fill="#595453"/>
    <rect x="3" y="2" width="32" height="32" rx="8" fill="url(#paint0_linear_133_52438)"/>
    <g clip-rule="evenodd" fill="#d0d5dd" fill-rule="evenodd">
