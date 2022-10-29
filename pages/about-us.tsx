@@ -19,7 +19,7 @@ const AboutUs: NextPage = () => {
   return (
     <>
       <Head>
-        <title>About Us {"-"} All Star Limousine</title>
+        <title>About Us - All Star Limousine</title>
         <meta name="description" content="Making luxury your lifestyle." />
       </Head>
 

@@ -18,7 +18,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Home {"-"} All Star Limousine</title>
+        <title>Home - All Star Limousine</title>
         <meta name="description" content="Top-quality worldwide executive limousine service." />
       </Head>
 

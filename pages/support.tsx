@@ -17,7 +17,7 @@ const Support: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Contact {"-"} All Star Limousine</title>
+        <title>Contact - All Star Limousine</title>
         <meta name="description" content="We’d love to hear from you" />
       </Head>
 

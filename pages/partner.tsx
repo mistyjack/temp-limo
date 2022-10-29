@@ -17,7 +17,7 @@ const Partner: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Partner with us {"-"} All Star Limousine</title>
+        <title>Partner with us - All Star Limousine</title>
         <meta name="description" content="Our mission is to ensure teams can do their best work, no matter their size or budget. We focus on the details of everything we do." />
       </Head>
 
