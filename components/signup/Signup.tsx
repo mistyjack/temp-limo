@@ -3,6 +3,7 @@ import LinkedInIcon from "@components/icon/LinkedIn";
 import Twitter2Icon from "@components/icon/Twitter2";
 import Input from "@components/ui/input";
 import Image from "next/image";
+import Link from "next/link";
 import { FC } from "react";
 
 const SignUp: FC = () => {
@@ -24,8 +25,13 @@ const SignUp: FC = () => {
               placeholder="Enter your last name"
             />
             <Input id="email" label="Email*" placeholder="Enter your email" />
-            <Input id="phone" label="Phone number*" placeholder="+1 (555) 000-0000" type="tel" />
-            
+            <Input
+              id="phone"
+              label="Phone number*"
+              placeholder="+1 (555) 000-0000"
+              type="tel"
+            />
+
             <div className="mb-6">
               <Input
                 id="password"
@@ -48,15 +54,13 @@ const SignUp: FC = () => {
 
             <p className="text-sm text-sec text-center mx-auto">
               Already have an account?{" "}
-              <a href="/sign-up" className="text-primary">
-                Log in
-              </a>
+              <Link href="/sign-up">
+                <a className="text-primary">Log in</a>
+              </Link>
             </p>
 
             <div className="mt-16 flex justify-between">
-              <p className="text-sec">
-                &copy; 2022 All Star Limousine.
-              </p>
+              <p className="text-sec">&copy; 2022 All Star Limousine.</p>
               <div className="mt-4 md:mt-0 flex gap-6">
                 <span>
                   <Twitter2Icon />
