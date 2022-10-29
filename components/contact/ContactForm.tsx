@@ -42,7 +42,7 @@ const ContactForm: FC = () => {
           Accept: "application/json",
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ id: uuidv4(), ...values }),
+        body: JSON.stringify({ id: uuidv4(), ...values, token }),
       });
       toast.info("Your message has been sent");
     } catch (error) {
