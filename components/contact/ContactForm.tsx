@@ -43,7 +43,7 @@ const ContactForm: FC = () => {
                 </label>
                 <input
                   id="phone"
-                  type="text"
+                  type="tel"
                   className="form-control"
                   placeholder="+1 (555) 000-0000"
                 />
@@ -53,7 +53,7 @@ const ContactForm: FC = () => {
                 <label className="form-label" htmlFor="category">
                   Support Category
                 </label>
-                <select className="form-control bg-white py-2.5" name="category" id="category">
+                <select value="" className="form-control bg-white py-2.5" name="category" id="category">
                   <option value="fleet">Fleet Issue</option>
                   <option value="general">General Finding</option>
                   <option value="partner">Partner</option>
@@ -72,12 +72,12 @@ const ContactForm: FC = () => {
                 ></textarea>
               </div>
 
-              <button className="btn btn-primary btn-lg text-center mt-8 w-full">
+              <button className="btn btn-primary btn-lg text-center text-lg mt-8 w-full">
                 Send message
               </button>
             </form>
           </div>
-          <div className="relative">
+          <div className="none md:block relative">
             <Image
               src="/support.png"
               alt="Contact image"
