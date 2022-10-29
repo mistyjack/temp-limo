@@ -24,6 +24,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FC, useState } from "react";
 import { Form } from "react-final-form";
+import { toast } from "react-toastify";
 import { poolData } from "UserPool";
 
 interface SignupParams {
@@ -87,7 +88,7 @@ const SignUp: FC = () => {
           setLoading(false);
           return;
         }
-
+        toast.info("Success! Check your email to verify your account.")
         setLoading(false);
         router.push("/")
       }
