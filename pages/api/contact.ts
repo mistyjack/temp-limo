@@ -25,6 +25,7 @@ export default async function handler(
   try {
     const {token, ...others} = req.body;
 
+    console.log("OTHERSKDFJAKDJFKSFD", others, "tOKEEN", token)
     // Recaptcha response
     const response = await verifyRecaptcha(token);
 
@@ -41,6 +42,7 @@ export default async function handler(
     //   }
 
     const parsedRes = await response.json()
+    console.log("fadfkafdf", parsedRes)
     if (parsedRes.success && parsedRes.score >= 0.5) {
       const newRes = await fetch("https://contact.allstarlimoservice.com/form", {
         method: "POST",
