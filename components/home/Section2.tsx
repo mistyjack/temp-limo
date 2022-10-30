@@ -1,21 +1,23 @@
-import FeaturedEmailIcon from "@components/icon/FeaturedEmail";
+import Connect from "@components/icon/Connect";
+import FeaturedNetwork from "@components/icon/FeaturedNetwork";
+import CommonHeading from "@components/ui/CommonHeading";
 import Image from "next/image";
 import { FC, ReactNode } from "react";
 
 const data: IPictureTextGrid[] = [
   {
-    title: "Share team inboxes",
+    title: "Embrace the style",
     content:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop. Leverage automation to move fast, while always giving customers a human, helpful experience.",
+      "For travelers, rent a limo to experience new things and see hidden delights. For business people, entertain your clients in style or just ride back from the airport in luxury. No matter why you need a limousine, we are here for you",
     image: "/picture-1.png",
-    icon: <FeaturedEmailIcon />,
+    icon: <Connect />,
   },
   {
-    title: "Share team inboxes",
+    title: "Rent out your Limo with convenience",
     content:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop. Leverage automation to move fast, while always giving customers a human, helpful experience.",
+      "Join the growing community of limousine owners, who are coming to the platform to rent out their unused limo. Renters can book the car to suits their needs and budgets. This is great news for all luxury car owners.",
     image: "/picture-2.png",
-    icon: <FeaturedEmailIcon />,
+    icon: <FeaturedNetwork />,
     reverse: true,
   },
 ];
@@ -24,24 +26,7 @@ const Section2: FC = () => {
   return (
     <section id="section-2" className="pt-32 md:pt-48 pb-24">
       <div className="custom-container-no-p">
-        <div className="max-w-768 mx-auto text-center mb-24">
-          <h2
-            className="h2 font-semibold mb-5"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            Providing You With The Absolute Best Luxury Limousine Service
-          </h2>
-          <p
-            className="text-sec text-base sm:text-xl"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            Powerful, self-serve product and growth analytics to help you
-            convert, engage, and retain more users. Trusted by over 4,000
-            startups.
-          </p>
-        </div>
+        <CommonHeading />
 
         {data.map((item, index) => (
           <div

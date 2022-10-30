@@ -9,9 +9,9 @@ const GetALimo: FC = () => {
       <div className="custom-container flex">
         <div className="text-white flex flex-col justify-between p-4 md:pt-16 md:pl-10 md:pb-8 bg-primary w-full md:w-2/5">
           <div data-aos="fade-up" data-aos-duration="1000">
-            <p className="md:text-xl mb-4">Get a Limo?</p>
+            <p className="md:text-xl mb-4">Do you own a Limo?</p>
             <h2 className="text-xl md:text-3.5xl md:max-w-348">
-              Join the Us to increase your earnings
+              Join us to boost your revenue.
             </h2>
           </div>
           <div

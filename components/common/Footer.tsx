@@ -51,8 +51,7 @@ const Footer: FC = () => {
           <div className="mb-12">
             <Image width={145} height={38} alt="Logo" src="/logo.svg" />
             <p className="mt-8 text-sec max-w-320 font-int">
-              Design amazing digital experiences that create more happy in the
-              world.
+              Offering You The Very Best Luxury Limousine Service
             </p>
           </div>
           <div className="col-span-2 font-vis">

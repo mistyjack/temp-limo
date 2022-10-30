@@ -9,12 +9,10 @@ const Hero: FC = () => {
       <div className="relative max-w-screen-2xl mx-auto overflow-x-clip mt-12 xl:mt-16">
         <div className="custom-container flex gap-4 justify-between items-center">
           <div className={`${styles.hero_text_content}`}>
-            <h1 className="h1">
-              Top-quality worldwide executive limousine service.
-            </h1>
+            <h1 className="h1">Our awesome App is coming soon</h1>
             <p className="max-w-480 text-sec text-base sm:text-xl mb-12">
-              Pamper yourself with corporate limousine services. Providing You
-              With The Absolute Best Luxury Limousine Service
+              We are still building. To be notified when we launch, sign up for
+              updates. We guarantee there won&apos;t be any spam!
             </p>
             <div className="flex gap-4">
               <Link href="/">

@@ -10,11 +10,12 @@ const Hero: FC = () => {
         <div className="custom-container flex gap-4 justify-between items-center">
           <div className={`${styles.hero_text_content}`}>
             <h1 className="h1">
-              Top-quality worldwide executive limousine service.
+              Delivering comfort and luxury at an affordable price
             </h1>
             <p className="max-w-480 text-sec text-base sm:text-xl mb-12">
-              Pamper yourself with corporate limousine services. Providing You
-              With The Absolute Best Luxury Limousine Service
+              With a luxurious limousine from us, make your event one to
+              remember. We let customers rent cars, track them, and stay updated
+              at all times
             </p>
             <Link href="/sign-up">
               <button className="btn btn-xl btn-primary font-medium text-lg leading-none">

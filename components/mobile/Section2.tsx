@@ -2,6 +2,7 @@ import BlueCheck from "@components/icon/BlueCheck";
 import FeaturedFlashIcon from "@components/icon/FeaturedFlash";
 import FeaturedNetwork from "@components/icon/FeaturedNetwork";
 import OrangeCheck from "@components/icon/OrangeCheck";
+import CommonHeading from "@components/ui/CommonHeading";
 import Image from "next/image";
 import { FC, ReactNode } from "react";
 
@@ -89,24 +90,7 @@ const Section2: FC = () => {
   return (
     <section id="section-2" className="pt-32 md:pt-48 pb-24">
       <div className="custom-container-no-p">
-        <div className="max-w-768 mx-auto text-center mb-24">
-          <h2
-            className="h2 font-semibold mb-5"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            Providing You With The Absolute Best Luxury Limousine Service
-          </h2>
-          <p
-            className="text-sec text-base sm:text-xl"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            Powerful, self-serve product and growth analytics to help you
-            convert, engage, and retain more users. Trusted by over 4,000
-            startups.
-          </p>
-        </div>
+        <CommonHeading />
 
         {data.map((item, index) => (
           <div
