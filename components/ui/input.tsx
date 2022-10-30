@@ -34,9 +34,7 @@ const Input: FC<IInput> = ({
             id={id}
             name={id}
             type={type}
-            className={
-              meta.error && meta.touched ? "form-control-error" : "form-control"
-            }
+            className={`${meta.error && meta.touched ? "form-control-error" : "form-control"} text-txt-pry`}
             placeholder={placeholder}
           />
           {endAdornment}

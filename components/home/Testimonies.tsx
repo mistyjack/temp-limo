@@ -8,57 +8,29 @@ const data: ITestimony[] = [
     name: "Leslie Alexander",
     title: "CEO at Creativex",
     content:
-      "OMG! I cannot believe that I have got a brand new landing page after getting @Omega…",
+      "I had an amazing experience using All Star Limo. I am a frequent traveler and often need a limousine to take me somewhere in New York City, but I only want one that is reliable. I found this website by chance and it was the best thing that ever happened to me. I always know when I use them that I will get the best service at a very reasonable price.",
     icon: "/a-1.png",
   },
   {
     name: "Kristin Watson",
     title: "CEO at Creativex",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus, ut mi interdum.",
+      "I just wanted to say thank you All Star Limo for having such a great website. When I was looking for a limo rental in Philadelphia, your site came up and it is so easy to use. The prices are affordable and the cars are beautiful.",
     icon: "/a-2.png",
   },
   {
     name: "Courtney Henry",
     title: "CEO at Creativex",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus.",
+      "I just wanted to say that I came across All Star Limo Service by accident and it has been one of the most convenient sites I have ever used. It is so easy to compare different styles and prices, and if you are unsure about sizing this site is a great tool.",
     icon: "/a-3.png",
   },
   {
     name: "Jane Cooper",
     title: "CEO at Creativex",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus.",
+      "I love the All Star limo service. I recently rented a limo from them and they were very professional and accommodating. The car was spotless and the driver was really friendly. I wouldn't change a thing!",
     icon: "/a-4.png",
-  },
-  {
-    name: "Brooklyn Simmons",
-    title: "CEO at Creativex",
-    content:
-      "OMG! I cannot believe that I have got a brand new landing page after getting @Omega…",
-    icon: "/a-5.png",
-  },
-  {
-    name: "Dianne Russell",
-    title: "CEO at Creativex",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus, ut mi interdum.",
-    icon: "/a-6.png",
-  },
-  {
-    name: "Ariene McCoy",
-    title: "CEO at Creativex",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus.",
-    icon: "/a-7.png",
-  },
-  {
-    name: "Savannah Nguyen",
-    title: "CEO at Creativex",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor enim mauris sagittis, sed tempus.",
-    icon: "/a-8.png",
   },
 ];
 
@@ -159,7 +131,7 @@ const Testimony: FC<ITestimony> = ({ name, title, icon, content }) => {
         </div>
         <TwitterIcon />
       </div>
-      <p className="text-pry font-vis md:max-w-250">{content}</p>
+      <p className="text-pry font-vis">{content}</p>
     </div>
   );
 };

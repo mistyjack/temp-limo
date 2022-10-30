@@ -14,14 +14,6 @@ const GettingStarged: FC = () => {
           >
             We&apos;re just getting started
           </h2>
-          <p
-            className="text-sec text-base sm:text-xl"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            We&apos;ve already helped over 4,000 companies achieve remarkable
-            results.
-          </p>
         </div>
         <div className="md:grid md:grid-cols-2 gap-16 text-sec text-lg">
           <div className="mb-10 md:mb-0 max-w-560">

@@ -1,49 +1,28 @@
-import ChatIcon from "@components/icon/Chat";
 import Connect from "@components/icon/Connect";
-import FeaturedNetwork from "@components/icon/FeaturedNetwork";
-import PartnerFlashIcon from "@components/icon/PartnerFlash";
-import PartnerMailIcon from "@components/icon/PartnerMail";
+import FeaturedFlashIcon from "@components/icon/FeaturedFlash";
 import SmileIcon from "@components/icon/Smile";
 import TypicalHeader from "@components/ui/TypicalHeader";
 import { FC, ReactNode } from "react";
 
 const data: IWhatYouGetItem[] = [
   {
-    icon: <PartnerMailIcon />,
-    title: "Share team inboxes",
-    content:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
-  },
-  {
-    icon: <PartnerFlashIcon />,
-    title: "Deliver instant answers",
-    content:
-      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
-  },
-  {
-    icon: <FeaturedNetwork />,
-    title: "Manage your team with reports",
-    content:
-      "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
-  },
-  {
     icon: <SmileIcon />,
-    title: "Connect with customers",
+    title: "Increase revenue",
     content:
-      "Solve a problem or close a sale in real-time with chat. If no one is available, customers are seamlessly routed to email without confusion.",
+      "Drive more traffic to your business by listing your limo up for rental on All Star Limo service.",
   },
   {
     icon: <Connect />,
-    title: "Connect the tools you already use",
+    title: "Connect easily with customers",
     content:
-      "Explore 100+ integrations that make your day-to-day workflow more efficient and familiar. Plus, our extensive developer tools.",
+      "All Star limo service offer you a platform to easily list your vehicle for hire and connect with people looking for luxury transportation.",
   },
   {
-    icon: <ChatIcon />,
-    title: "Our people make the difference",
+    icon: <FeaturedFlashIcon />,
+    title: "Better customer interaction",
     content:
-      "We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
-  },
+      "All star limo service will help you be more successful by helping you have a faster response time and increased customer base.",
+  }
 ];
 
 const WhatYouGet: FC = () => {

@@ -11,21 +11,21 @@ import { FC } from "react";
 const data: IWhatYouGetItem[] = [
   {
     icon: <PartnerMailIcon />,
-    title: "Share team inboxes",
+    title: "Convenience",
     content:
-      "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
+      "To be the go-to platform for limousine rental, providing an easy and convenient way for users to rent limos and track their rides, as well as a reliable source of income for limousine owners.",
   },
   {
     icon: <PartnerFlashIcon />,
-    title: "Deliver instant answers",
+    title: "Comfort",
     content:
-      "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
+      "We want to be the go-to limousine rental platform for anyone who wants to make a grand entrance or ensure a comfortable, safe ride.",
   },
   {
     icon: <FeaturedNetwork />,
-    title: "Manage your team with reports",
+    title: "Simplicity",
     content:
-      "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
+      "To provide an easy-to-use system for both limousine owners and renters that is reliable and trustworthy. Our goal is to create a 5-star experience for all involved.",
   },
 ];
 

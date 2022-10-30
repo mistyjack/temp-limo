@@ -87,7 +87,7 @@ const ContactForm: FC = () => {
                     validate={composeValidators(required, mustBeLessThan30)}
                   />
 
-                  <Field name="category">
+                  <Field name="category" defaultValue="fleet">
                     {({ input, meta }) => (
                       <div className="mb-6">
                         <label className="form-label" htmlFor="category">
@@ -95,7 +95,7 @@ const ContactForm: FC = () => {
                         </label>
                         <select
                           {...input}
-                          className="form-control bg-white py-2.5"
+                          className="form-control bg-white py-2.5 text-txt-pry"
                           name="category"
                           id="category"
                         >
