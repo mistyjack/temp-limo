@@ -8,14 +8,14 @@ const data: ITestimony[] = [
     name: "Leslie Alexander",
     title: "CEO at Creativex",
     content:
-      "I had an amazing experience using All Star Limo. I am a frequent traveler and often need a limousine to take me somewhere in New York City, but I only want one that is reliable. I found this website by chance and it was the best thing that ever happened to me. I always know when I use them that I will get the best service at a very reasonable price.",
+      "I had an amazing experience using All Star Limo. I am a frequent traveler and often need a limousine to take me somewhere in Texas, but I only want one that is reliable. I found this website by chance and it was the best thing that ever happened to me. I always know when I use them that I will get the best service at a very reasonable price.",
     icon: "/a-1.png",
   },
   {
     name: "Kristin Watson",
     title: "CEO at Creativex",
     content:
-      "I just wanted to say thank you All Star Limo for having such a great website. When I was looking for a limo rental in Philadelphia, your site came up and it is so easy to use. The prices are affordable and the cars are beautiful.",
+      "I just wanted to say thank you All Star Limo for having such a great website. When I was looking for a limo rental in Texas, your site came up and it is so easy to use. The prices are affordable and the cars are beautiful.",
     icon: "/a-2.png",
   },
   {
