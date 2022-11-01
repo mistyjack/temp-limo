@@ -8,19 +8,19 @@ const data: ICard[] = [
     icon: <FeaturedEmailIcon />,
     title: "Email",
     description: "Our friendly team is here to help.",
-    email: "info@allstarlimo.com",
+    email: "info@allstarlimoservice.com",
   },
   {
     icon: <FeaturedLocationIcon />,
     title: "Office",
     description: "Come say hello at our office HQ.",
-    address: "100 Smith Street Collingwood VIC 3066 AU",
+    address: "Fillings Team, 5900 Balcones Drive STE 100, Austin, TX 78731 USA",
   },
   {
     icon: <FeaturedPhoneIcon />,
-    title: "Office",
+    title: "Phone",
     description: "Mon-Fri from 8am to 5pm.",
-    address: "+1 555 000 0000",
+    address: "+1 713 447 8175",
   },
 ];
 

@@ -10,8 +10,8 @@ const Hero: FC = () => {
           Putting your unused car is not an easy task, but with our platform you
           can do it in just a few clicks.
         </p>
-        <Link href="/partner">
-          <a className="btn btn-2lg btn-primary">Parter with us</a>
+        <Link href="/sign-up">
+          <a className="btn btn-2lg btn-primary">Partner with us</a>
         </Link>
       </div>
     </section>

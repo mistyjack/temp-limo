@@ -4,11 +4,10 @@ import { FC } from "react";
 
 const data: IPictureTextGrid[] = [
   {
-    title: "Share team inboxes",
+    title: "Partner with us",
     content: [
-      "We’ve already helped over 4,000 companies achieve remarkable results.",
-      "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.",
-      "Nunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus.",
+      "Join the growing community of limousine owners, who are coming to the platform to rent out their unused limo. Renters can book the car to suits their needs and budgets. This is great news for all luxury car owners.",
+      "Putting your unused car is not an easy task, but with our platform you can do it in just a few clicks. We use online marketing channels to promote our site and bring in more Limo owners on board"
     ],
     image: "/partner.png",
   },

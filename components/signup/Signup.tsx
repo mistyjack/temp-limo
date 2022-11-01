@@ -67,7 +67,7 @@ const getDataList = (values: SignupParams) => {
 
 const SignUp: FC = () => {
   const router = useRouter();
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
@@ -90,7 +90,9 @@ const SignUp: FC = () => {
         }
         toast.info("Success! Check your email to verify your account.")
         setLoading(false);
-        router.push("/")
+        setTimeout(() => {
+          router.push("/")
+        }, 3000)
       }
     );
   };

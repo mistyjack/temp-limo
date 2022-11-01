@@ -19,7 +19,7 @@ const GetALimo: FC = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <Link href="/partner">
+            <Link href="/sign-up">
               <a className="relative pr-8 font-medium">
                 Partner with us
                 <span className="text-white btn-anim-icon absolute">
